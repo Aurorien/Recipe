@@ -21,7 +21,7 @@ main {
 }
 
 article section {
-  margin-right: 2em;
+  margin-right: 0.5em;
 }
 
 article section header p {
@@ -44,7 +44,7 @@ li {
 }
 
 footer {
-  background-color: rgb(161, 196, 161);
+  background-color: #a1c4a1;
   padding: 1em 3em;
   text-align: center;
 }
@@ -55,14 +55,21 @@ footer {
 
 .header-images img {
   width: 100%;
-  min-width: 0; /* Allows the image to shrink. Otherwise min-width is auto which by default becomes the image natural width. */
 }
 
 .reverse-rhubarbs {
   transform: rotateY(180deg);
 }
 
+.piece-of-cake {
+  margin: 0;
+}
+
 @media screen and (min-width: 760px) {
+  main {
+    padding: 4em 4em 4.5em 4.2em;
+  }
+
   article {
     display: flex;
     flex-direction: row;
