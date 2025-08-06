@@ -44,9 +44,24 @@ li {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #a1c4a1;
   padding: 1em 3em;
   text-align: center;
+}
+
+footer header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer header img {
+  margin: 0 1em;
+  max-width: 6em;
+  max-height: 1.5em;
 }
 
 .header-images {
@@ -63,6 +78,14 @@ footer {
 
 .piece-of-cake {
   margin: 0;
+}
+
+.reverse-branch {
+  transform: rotateY(180deg);
+}
+
+.contact-info {
+  margin: 0 0 2em 0;
 }
 
 @media screen and (min-width: 760px) {
